@@ -39,4 +39,4 @@ Key parameters:
 --nodes  :   Number of nodes (default: 1024);
 --shards  :  Shard count (default: 64);
 --byzantine :  Byzantine ratio (default: 0.3);
---epochs  :  Simulation epochs (default: 500);
+--epochs  :  Simulation epochs (default: 500)
