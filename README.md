@@ -36,7 +36,7 @@ python simulation_runner.py --nodes 1024 --byzantine 0.4 --epochs 1000
 ```
 
 Key parameters:
---nodes     Number of nodes (default: 1024)
+| --nodes |     Number of nodes (default: 1024) |
 --shards    Shard count (default: 64)
 --byzantine Byzantine ratio (default: 0.3)
 --epochs    Simulation epochs (default: 500)
