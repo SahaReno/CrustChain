@@ -1,0 +1,17 @@
+# Core dependencies
+numpy==1.26.4
+tqdm==4.66.1
+py-ecc==7.0.0
+ecdsa==0.18.0
+cryptography==42.0.5
+pycryptodome==3.20.0
+scipy==1.13.0
+
+# Utility libraries
+requests==2.31.0
+pandas==2.2.1
+matplotlib==3.8.3
+
+# Testing and development
+pytest==8.0.0
+ipython==8.22.2
