@@ -25,3 +25,18 @@ This repository contains simulation code for the CrustChain blockchain framework
 git clone https://github.com/renosaha/crustchain-simulations
 cd crustchain-simulations
 pip install -r requirements.txt
+
+```
+
+## Running Simulations
+Execute the main simulation with Byzantine node testing:
+```bash
+python simulation_runner.py --nodes 1024 --byzantine 0.4 --epochs 1000
+
+```
+
+Key parameters:
+--nodes     Number of nodes (default: 1024)
+--shards    Shard count (default: 64)
+--byzantine Byzantine ratio (default: 0.3)
+--epochs    Simulation epochs (default: 500)
